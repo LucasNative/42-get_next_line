@@ -6,7 +6,7 @@
 /*   By: ldaniel- <ldaniel-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/08 11:58:58 by ldaniel-          #+#    #+#             */
-/*   Updated: 2021/07/10 19:04:45 by ldaniel-         ###   ########.fr       */
+/*   Updated: 2021/07/11 12:05:03 by ldaniel-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,4 +27,7 @@ size_t	ft_strclen(const char *s, int c);
 # define L_READ 1
 # define END_OF_FILE 0
 # define ERROR -1
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 20
+# endif
 #endif
